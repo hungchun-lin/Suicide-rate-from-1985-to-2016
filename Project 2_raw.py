@@ -10,11 +10,14 @@ import warnings
 from scipy import stats
 warnings.filterwarnings('ignore')
 
+
+
+
 py.sign_in('hungChun', 'DiEL63Ss8uTCK0kvFF2z')
 print(plotly.__version__)
 
 #Suicide data
-sd = pd.read_csv('suicide.csv', index_col = 0, encoding='latin')
+sd = pd.read_csv('/Users/hclin/Desktop/Project 2/suicide.csv', index_col = 0, encoding='latin')
 sd.head(10)
 
 #Group data by age gender of each year
@@ -186,7 +189,7 @@ plt.pie(gsdcountry10,
 plt.show()
 
 #Life expectancy dataset
-le = pd.read_csv('Life expectancy.csv', index_col = 0, encoding='latin')
+le = pd.read_csv('/Users/hclin/Desktop/Project 2/Life expectancy.csv', index_col = 0, encoding='latin')
 le.head(10)
 
 #Life expectancy data group by country
@@ -212,7 +215,7 @@ letengp['life mean'] = letengp.mean(axis=1)
 letengp
 
 #GDP of top 10 suicide number countries
-GDPfile = pd.read_csv('GDP.csv', index_col = 0)
+GDPfile = pd.read_csv('/Users/hclin/Desktop/Project 2/GDP.csv', index_col = 0)
 GDPfile.head()
 GDPfile['GDP mean'] = GDPfile.mean(axis=1)
 GDP = GDPfile.reset_index()
@@ -268,7 +271,7 @@ fig = dict(data=my_data01, layout=my_layout01)
 py.iplot(fig, validata=False, filename='GDP')
 
 #Population dataset
-popfile = pd.read_csv('population.csv', index_col = 0)
+popfile = pd.read_csv('/Users/hclin/Desktop/Project 2/population.csv', index_col = 0)
 popfile.head()
 
 popdata = pd.DataFrame(popfile.loc[:,["2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015"]])
@@ -323,7 +326,7 @@ g = g.annotate(rsquare, template="{stat}:{val:.2f}",
               stat="$R^2$",loc= "upper right", fontsize=12)
               
 #Happiness score
-hp = pd.read_csv('2015.csv', index_col = 0, encoding='latin')
+hp = pd.read_csv('/Users/hclin/Desktop/Project 2/2015.csv', index_col = 0, encoding='latin')
 hp = pd.DataFrame(hp["Happiness Score"])
 hp.head(10)
 
