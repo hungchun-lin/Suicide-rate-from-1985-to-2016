@@ -10,23 +10,23 @@ In this report, we also compared the suicide number to the other three factors t
 
 ## Conclusion:
 
-**1. The suicide number of the male is higher than female.  
+**1. The suicide number of the male is higher than female.**
 
 <div align=left><img src="su3.png" width="400" height="250"/></div>
 
-**2. The age group has the highest suicide number is 35-54 years.
+**2. The age group has the highest suicide number is 35-54 years.**
 
 <div align=left><img src="su2.png" width="500" height="250"/></div>
 
-**3. The country which has the highest suicide number is Russian.
+**3. The country which has the highest suicide number is Russian.**
 
 <div align=left><img src="su4.png" width="600" height="250"/></div>
 
-**4. GDP, life expectancy and happiness score do not have a strong correlation with the suicide number.
+**4. GDP, life expectancy and happiness score do not have a strong correlation with the suicide number.**
 
 <div align=left><img src="su5.png" width="400" height="300"/></div>
 
-**5. Happiness score has a strong correlation with life expectancy.
+**5. Happiness score has a strong correlation with life expectancy.**
 
 <div align=left><img src="su6.png" width="400" height="250"/></div>
 
