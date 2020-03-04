@@ -20,4 +20,23 @@ In this report, we also compared the suicide number to the other three factors t
 
 •5. Happiness score has a strong correlation with life expectancy.
 
-![Image description](featureselection-1)
+*Suicide number dispersion of the world
+![Image description](su1)
+
+*Suicide number dispersion of the world
+![Image description](su2)
+
+*Suicide number dispersion of the world
+![Image description](su3)
+
+*Suicide number dispersion of the world
+![Image description](su4)
+
+*Suicide number dispersion of the world
+![Image description](su5)
+
+*Suicide number dispersion of the world
+![Image description](su6)
+
+*Suicide number dispersion of the world
+![Image description](su7)
