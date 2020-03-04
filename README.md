@@ -19,3 +19,5 @@ In this report, we also compared the suicide number to the other three factors t
 •4. GDP, life expectancy and happiness score do not have a strong correlation with the suicide number.
 
 •5. Happiness score has a strong correlation with life expectancy.
+
+![Image description](featureselection-1)
